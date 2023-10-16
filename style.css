@@ -27,3 +27,73 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+  
+/* Global styles */
+body {
+    font-family: Copperplate, sans-serif;
+    background-color: rgb(109, 0, 251);
+    color: yellow;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgb(241, 117, 0);
+}
+
+/* Header styles */
+#row1 {
+    background-image: linear-gradient(to bottom, rgb(243, 183, 106), rgb(251, 64, 64));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    border-bottom: 5px solid red;
+}
+
+#jordans-1 {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#jordans-1-desc {
+    font-size: 1.5em;
+}
+
+/* Content styles */
+#row2 {
+    background-color: rgb(116, 201, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-top: 5px solid red;
+}
+
+#jordans-2 {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#jordans-2-desc {
+    font-size: 1.5em;
+}
+
+/* Links styles */
+a {
+    color: rgb(219, 255, 57);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(13, 110, 0);
+}
